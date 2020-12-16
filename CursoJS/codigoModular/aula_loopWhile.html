@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loop Distancia </title>
+</head>
+<body>
+    <p>Esse loop é para calcular quantos postes será usado em uma construção de 50m com um poste a cada 10m </p>
+    <input type="button" value="Clique" onclick="postesDistancia()">
+    <div>
+        <input  type="text" >
+    </div>
+    <script>
+        function postesDistancia(){
+            var distancia = 0;
+            var postes = 1
+                while(postes <= 5){
+                    distancia += 10;
+                    postes++;
+                    }
+                    console.log(postes)
+                    console.log(distancia)
+        }
+    </script>
+</body>
+</html>
